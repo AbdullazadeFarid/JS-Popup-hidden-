@@ -1,0 +1,107 @@
+.overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    opacity: 0.5;
+transition: all.5s ease-in-out
+
+}
+
+
+
+#call {
+  border: none;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 4%;
+
+  cursor: pointer;
+
+  .call_icon {
+    .icon {
+
+    }
+  }
+
+  .call_number {
+    .button {
+        opacity: 0.5;
+    }
+  }
+}
+
+
+
+.number{
+
+width: 23%;
+padding: 23px;
+border-radius: 23px;
+background-color: #fff;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: none;
+    .head{
+        display: flex;
+        align-items: center;
+        gap: 31%;
+
+        .title{
+
+            .text{
+
+            }
+        }
+
+        .exit_icon{
+
+            .close-btn{
+                border: none;
+                background-color: #fff;
+                font-size: 30px;
+                opacity: 0.5;
+                cursor: pointer;
+
+            }
+        }
+
+    }
+}
+
+
+.information{
+
+
+
+    .inf_kinds{
+        display: flex;
+        align-items: center;
+        gap: 3%;
+        margin-top: 3%;
+        color: #00A3C9;
+    font-size: 19px;
+        .kinds_icon{
+            width: 19px;
+        }
+
+        .kinds_text{
+            font-weight: 400;
+
+        }
+    }
+}
+
+
+
+
+
+.hidden{
+    display: none;
+}
