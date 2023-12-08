@@ -1,16 +1,13 @@
-.overlay{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100vh;
-    background-color: #333;
-    opacity: 0.5;
-transition: all.5s ease-in-out
-
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
 }
-
-
 
 #call {
   border: none;
@@ -21,87 +18,153 @@ transition: all.5s ease-in-out
 
   cursor: pointer;
 
-  .call_icon {
-    .icon {
 
-    }
-  }
 
   .call_number {
     .button {
-        opacity: 0.5;
+      opacity: 0.5;
     }
   }
 }
 
+.number {
+  width: 23%;
+  padding: 23px;
+  border-radius: 23px;
+  background-color: #fff;
 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 31%;
 
-.number{
-
-width: 23%;
-padding: 23px;
-border-radius: 23px;
-background-color: #fff;
-
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-border: none;
-    .head{
-        display: flex;
-        align-items: center;
-        gap: 31%;
-
-        .title{
-
-            .text{
-
-            }
-        }
-
-        .exit_icon{
-
-            .close-btn{
-                border: none;
-                background-color: #fff;
-                font-size: 30px;
-                opacity: 0.5;
-                cursor: pointer;
-
-            }
-        }
-
+    .title {
+      .text {
+      }
     }
+
+    .exit_icon {
+      .close-btn {
+        border: none;
+        background-color: #fff;
+        font-size: 30px;
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+  }
 }
 
-
-.information{
-
-
-
-    .inf_kinds{
-        display: flex;
-        align-items: center;
-        gap: 3%;
-        margin-top: 3%;
-        color: #00A3C9;
+.information {
+  .inf_kinds {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin-top: 3%;
+    color: #00a3c9;
     font-size: 19px;
-        .kinds_icon{
-            width: 19px;
-        }
-
-        .kinds_text{
-            font-weight: 400;
-
-        }
+    cursor: pointer;
+    .kinds_icon {
+      width: 19px;
     }
+
+    .kinds_text {
+      font-weight: 400;
+    }
+
+  }
+
+  ///////////////////////////////
+  .inf_kinds1 {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin-top: 3%;
+    color: #00a3c9;
+    font-size: 19px;
+    cursor: pointer;
+    .kinds_icon {
+      width: 19px;
+    }
+
+    .kinds_text {
+      font-weight: 400;
+    }
+  ///////////////////////////////
+}
+}
+
+.hidden {
+  display: none;
 }
 
 
 
+.section {
+  width: 27%;
+  background-color:#fff;
+    padding: 2%;
+    border-radius: 6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  .call_order {
+    display: flex;
+    justify-content: space-between;
+
+    .order_title{
+
+    }
+
+    .end{
+      .order_end{
+        cursor: pointer;
+
+      }
+
+    }
+  }
+
+  .work_time{
+    margin-top: 2%;
+  }
+
+  .form{
 
 
-.hidden{
-    display: none;
+    .inp{
+      padding: 20px 58px 20px 10px;
+
+    }
+  }
+
+  .form_radio{
+    margin-top: 1%;
+
+    .radio{
+
+    }
+  }
+
+  .btn{
+    margin-top: 8%;
+   margin-left:50%;
+    padding: 17px 76px 17px 76px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #Fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover{
+      background-color:#00a3c9;
+      transform: translate;
+    }
+  }
 }

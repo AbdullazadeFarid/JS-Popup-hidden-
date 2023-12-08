@@ -6,7 +6,7 @@
   height: 100vh;
   background-color: #333;
   opacity: 0.5;
-  transition: all;
+  transition: all 0.5s ease-in-out;
 }
 
 #call {
@@ -50,8 +50,9 @@
   align-items: center;
   gap: 3%;
   margin-top: 3%;
-  color: #00A3C9;
+  color: #00a3c9;
   font-size: 19px;
+  cursor: pointer;
 }
 .information .inf_kinds .kinds_icon {
   width: 19px;
@@ -59,7 +60,64 @@
 .information .inf_kinds .kinds_text {
   font-weight: 400;
 }
+.information .inf_kinds1 {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin-top: 3%;
+  color: #00a3c9;
+  font-size: 19px;
+  cursor: pointer;
+}
+.information .inf_kinds1 .kinds_icon {
+  width: 19px;
+}
+.information .inf_kinds1 .kinds_text {
+  font-weight: 400;
+}
 
 .hidden {
   display: none;
+}
+
+.section {
+  width: 27%;
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 6%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section .call_order {
+  display: flex;
+  justify-content: space-between;
+}
+.section .call_order .end .order_end {
+  cursor: pointer;
+}
+.section .work_time {
+  margin-top: 2%;
+}
+.section .form .inp {
+  padding: 20px 58px 20px 10px;
+}
+.section .form_radio {
+  margin-top: 1%;
+}
+.section .btn {
+  margin-top: 8%;
+  margin-left: 50%;
+  padding: 17px 76px 17px 76px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: #Fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.section .btn:hover {
+  background-color: #00a3c9;
+  transform: translate;
 }/*# sourceMappingURL=style.css.map */
